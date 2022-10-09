@@ -1,16 +1,10 @@
 package com.solvd.bankdb;
-
 import com.solvd.bankdb.connection.DbConnection;
 import com.solvd.bankdb.dao.BankDao;
-import com.solvd.bankdb.model.Account;
-import com.solvd.bankdb.model.AccountType;
-import com.solvd.bankdb.model.User;
 import com.solvd.bankdb.service.BankServiceImpl;
-import com.solvd.bankdb.service.IBankService;
 import com.solvd.bankdb.service.MobileApp;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.sql.Connection;
 
 

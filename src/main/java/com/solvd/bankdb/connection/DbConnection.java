@@ -1,9 +1,7 @@
 package com.solvd.bankdb.connection;
-
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
